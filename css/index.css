@@ -1,0 +1,471 @@
+/*Start Basics*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 1100px;
+  margin: auto;
+}
+
+/*End Basics*/
+/*navigation bar*/
+.nav-box {
+  background-color: #171819;
+}
+
+nav {
+  color: #fff;
+  display: flex;
+  height: 65px;
+  line-height: 65px;
+}
+
+nav .logo h2 {}
+
+nav .navigation ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .navigation ul li {
+  width: 126px;
+  text-align: center;
+  font-size: 13px;
+}
+
+nav .navigation ul li:first-of-type {
+  color: #f13a11;
+}
+
+nav .navigation ul li:hover {
+  color: #f13a11;
+  cursor: pointer;
+}
+
+nav .social {
+  text-align: center;
+}
+
+nav .social i {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+nav .social i:first-of-type:hover {
+  color: #3b5998;
+}
+
+nav .social i:nth-child(2):hover {
+  color: #bb2147;
+}
+
+nav .social i:nth-child(3):hover {
+  color: #2aa9e0;
+}
+
+/*End navigation bar*/
+/*Slider Site*/
+.slider-box {
+  min-height: 600px;
+  background-image: url(../image/blur.jpg);
+  background-size: cover;
+}
+
+.slider-box .back {
+  min-height: 600px;
+  background-color: rgb(12, 14, 16, 0.85);
+}
+
+.slider-box .back .slider {
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.slider-box .back .slider .info-site {
+  text-align: center;
+}
+
+.slider-box .back .slider .info-site p {
+  margin-bottom: 40px;
+}
+
+.slider-box .back .slider .info-site p:first-of-type {
+  color: #7d7d7d;
+}
+
+.slider-box .back .slider .info-site p:last-of-type {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.slider-box .back .slider .button {
+  margin-top: 50px;
+}
+
+.slider-box .back .slider .button button {
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.slider-box .back .slider .button button:first-of-type {
+  border: none;
+  background-color: #fff;
+}
+
+.slider-box .back .slider .button button:last-of-type {
+  border: none;
+  background-color: #f13a11;
+  color: #fff;
+}
+
+/*End Slider Site*/
+/*Start feature box*/
+.feature-box {
+  background-color: #171819;
+  padding: 90px 0 90px 0;
+}
+
+.feature-box .feature {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.feature-box .feature .left-box h2, .feature-box .feature .left-box p {
+  margin-bottom: 30px;
+}
+
+.feature-box .feature .left-box {
+  padding-right: 80px;
+}
+
+.feature-box .feature .left-box h2 {
+  font-size: 38px;
+}
+
+.feature-box .feature .left-box p {
+  line-height: 2;
+}
+
+.feature-box .feature .left-box p:first-of-type {
+  font-size: 20px;
+}
+
+.feature-box .feature .left-box p:last-of-type {
+  color: #5f5f5f;
+}
+
+.feature-box .feature .left-box button {
+  background-color: #f13a11;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  height: 55px;
+  font-size: 17px;
+}
+
+.feature-box .feature .right-box {
+  padding-left: 80px;
+  border-left: 2px solid #f13a11;
+}
+
+.feature-box .feature .right-box h2, .feature-box .feature .right-box p {
+  margin-bottom: 30px;
+}
+
+.feature-box .feature .right-box h2 {
+  font-size: 38px;
+}
+
+.feature-box .feature .right-box p {
+  color: #5f5f5f;
+}
+
+.feature-box .feature .right-box p strong {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/*End feature box*/
+/*Start About box*/
+.about-box {
+  padding: 90px 0 90px 0;
+}
+
+.about-box .about {
+  display: flex;
+}
+
+.about-box .about .left-box {
+  padding: 30px;
+}
+
+.about-box .about .left-box h1, .about-box .about .left-box p {
+  margin-bottom: 30px;
+}
+
+.about-box .about .left-box h1 {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.about-box .about .left-box p {
+  line-height: 2;
+  font-size: 18px;
+  color: #5f5f5f;
+}
+
+.about-box .about .left-box p:hover {
+  color: #f13a11;
+}
+
+.about-box .about .right-box .parent {
+  display: flex;
+}
+
+.about-box .about .right-box .parent .img-left {
+  padding: 0 15px 0 15px;
+}
+
+.about-box .about .right-box .parent .img-left .box {
+  background-color: #fff;
+}
+
+.about-box .about .right-box .parent .img-left .box img {
+  width: 100%;
+}
+
+.about-box .about .right-box .parent .img-left .box .info {
+  padding: 15px;
+}
+
+.about-box .about .right-box .parent .img-left .box .info p:first-of-type {
+  margin-bottom: 10px;
+}
+
+.about-box .about .right-box .parent .img-left .box .info p span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about-box .about .right-box .parent .img-left .box .info p i {
+  display: inline-block;
+  float: right;
+}
+
+.about-box .about .right-box .parent .img-right {
+  padding: 0 15px 0 15px;
+}
+
+.about-box .about .right-box .parent .img-right .box {
+  background-color: #fff;
+}
+
+.about-box .about .right-box .parent .img-right .box img {
+  width: 100%;
+}
+
+.about-box .about .right-box .parent .img-right .box .info {
+  padding: 15px;
+}
+
+.about-box .about .right-box .parent .img-right .box .info p:first-of-type {
+  margin-bottom: 10px;
+}
+
+.about-box .about .right-box .parent .img-right .box .info p span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about-box .about .right-box .parent .img-right .box .info p i {
+  display: inline-block;
+  float: right;
+}
+
+/*End About box*/
+/*Start Statistics*/
+.statistics-box {
+  background-color: #171819;
+  padding: 70px 0 70px 0;
+}
+
+.statistics-box .statistics {
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.statistics-box .statistics section {
+  text-align: center;
+}
+
+.statistics-box .statistics section h2, .statistics-box .statistics section span {
+  margin-bottom: 30px;
+}
+
+.statistics-box .statistics section span {
+  display: inline-block;
+  background-color: #f13a11;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 50%;
+}
+
+.statistics-box .statistics section p {
+  color: #a9a8a8;
+}
+
+/*End Statistics*/
+/*Start typing*/
+.typing {
+  background-color: #fff;
+  padding: 90px 0 90px 0;
+}
+
+.typing .text {
+  text-align: center;
+}
+
+.typing .text p {
+  font-size: 20px;
+  line-height: 2;
+  margin-bottom: 30px;
+  color: #7d7d7d
+}
+
+.typing .text button {
+  border: none;
+  background-color: #f13a11;
+  width: 250px;
+  height: 50px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*End typing*/
+/*Start Table Site*/
+.table-site {
+  background-color: #171819;
+  color: #fff;
+  padding: 100px 0 100px 0;
+}
+
+.table-site .boxing table {
+  width: 100%;
+}
+
+.table-site .boxing table, th, td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 20px;
+}
+
+.table-site .boxing table thead {
+  background-color: #f13a11;
+}
+
+.table-site .boxing table tbody tr td:first-of-type {
+  background-color: #f13a11;
+}
+
+.table-site .boxing table tbody tr td strong {
+  display: inline-block;
+  margin-bottom: 7px;
+}
+
+.table-site .boxing table tbody tr td span {
+  font-weight: normal;
+  font-size: 15px;
+  color: #ccc;
+}
+
+/*End Table Site*/
+/*Start Login Form*/
+.login-box {
+  background-color: #fff;
+  padding: 70px 0 70px 0;
+}
+
+.login-box .login {
+  display: flex;
+  justify-content: center;
+}
+
+.login-box .login .parent {
+  width: 600px;
+  padding: 20px;
+}
+
+.login-box .login .parent h1, .login-box .login .parent form input {
+  margin-bottom: 30px;
+}
+
+.login-box .login .parent form input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  background-color: #ececec;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-box .login .parent form textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 30px;
+  padding: 5px;
+  background-color: #ececec;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-box .login .parent form button {
+  background-color: #f13a11;
+  border: none;
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer
+}
+
+/*End Login Form*/
+/*Footer*/
+footer {
+  text-align: center;
+  ;
+  font-size: 17px;
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0 20px 0;
+}
+
+footer span {
+  color: #ccc;
+}
+
+/*Footer*/
